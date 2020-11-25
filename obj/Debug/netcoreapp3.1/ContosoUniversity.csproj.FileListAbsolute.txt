@@ -178,3 +178,4 @@ D:\DotNet\RazorPages\ContosoUniversity\obj\Debug\netcoreapp3.1\Razor\Pages\Stude
 D:\DotNet\RazorPages\ContosoUniversity\obj\Debug\netcoreapp3.1\Razor\Pages\Students\Details.cshtml.g.cs
 D:\DotNet\RazorPages\ContosoUniversity\obj\Debug\netcoreapp3.1\Razor\Pages\Students\Edit.cshtml.g.cs
 D:\DotNet\RazorPages\ContosoUniversity\obj\Debug\netcoreapp3.1\Razor\Pages\Students\Index.cshtml.g.cs
+D:\DotNet\RazorPages\ContosoUniversity\obj\Debug\netcoreapp3.1\Razor\Pages\About.cshtml.g.cs
