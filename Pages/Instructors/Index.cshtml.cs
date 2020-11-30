@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using ContosoUniversity.Data;
 using ContosoUniversity.Models;
+using ContosoUniversity.Models.SchoolViewModels;
 
 namespace ContosoUniversity.Pages.Instructors
 {
@@ -18,12 +19,18 @@ namespace ContosoUniversity.Pages.Instructors
         {
             _context = context;
         }
-
-        public IList<Instructor> Instructor { get;set; }
+        
+        public InstructorIndexData InstructorData { get; set; }
+        public int InstructorID { get; set; }
+        public int CourseID { get; set; }
 
         public async Task OnGetAsync()
         {
-            Instructor = await _context.Instructors.ToListAsync();
+            InstructorData = new InstructorIndexData();
+            InstructorData.Instructors = await _context.Instructors
+                .Include(i => i.OfficeAssignment)
+                .Include(i => i.CourseAssignments)
+                    .ThenInclude(i => i.Course)
         }
     }
 }
