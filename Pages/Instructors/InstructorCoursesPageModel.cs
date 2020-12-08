@@ -10,7 +10,7 @@ namespace ContosoUniversity.Pages.Instructors
     public class InstructorCoursesPageModel : PageModel
     {
         public List<AssignedCourseData> AssignedCourseDataList;
-        public void PupulateAssignedCourseData(SchoolContext context,
+        public void PopulateAssignedCourseData(SchoolContext context,
                                                Instructor instructor)
         {
             var allCourses = context.Courses;
@@ -26,7 +26,6 @@ namespace ContosoUniversity.Pages.Instructors
                     Assigned = instructorCourses.Contains(course.CourseID)
                 });
             }
-
         }
 
         public void UpdateInstructorCourses(SchoolContext context,
