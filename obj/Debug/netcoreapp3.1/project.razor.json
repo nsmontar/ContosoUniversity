@@ -14392,6 +14392,11 @@
   "RootNamespace": "ContosoUniversity",
   "Documents": [
     {
+      "FilePath": "d:\\DotNet\\RazorPages\\ContosoUniversity\\Pages\\Departments\\Index.cshtml",
+      "TargetPath": "Pages\\Departments\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\DotNet\\RazorPages\\ContosoUniversity\\Pages\\Courses\\Create.cshtml",
       "TargetPath": "Pages\\Courses\\Create.cshtml",
       "FileKind": "mvc"
@@ -14409,6 +14414,11 @@
     {
       "FilePath": "d:\\DotNet\\RazorPages\\ContosoUniversity\\Pages\\Instructors\\Details.cshtml",
       "TargetPath": "Pages\\Instructors\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DotNet\\RazorPages\\ContosoUniversity\\Pages\\Departments\\Create.cshtml",
+      "TargetPath": "Pages\\Departments\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14467,8 +14477,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\DotNet\\RazorPages\\ContosoUniversity\\Pages\\Departments\\Edit.cshtml",
+      "TargetPath": "Pages\\Departments\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\DotNet\\RazorPages\\ContosoUniversity\\Pages\\Students\\Delete.cshtml",
       "TargetPath": "Pages\\Students\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DotNet\\RazorPages\\ContosoUniversity\\Pages\\Departments\\Details.cshtml",
+      "TargetPath": "Pages\\Departments\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14494,6 +14514,11 @@
     {
       "FilePath": "d:\\DotNet\\RazorPages\\ContosoUniversity\\Pages\\Courses\\Delete.cshtml",
       "TargetPath": "Pages\\Courses\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DotNet\\RazorPages\\ContosoUniversity\\Pages\\Departments\\Delete.cshtml",
+      "TargetPath": "Pages\\Departments\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
